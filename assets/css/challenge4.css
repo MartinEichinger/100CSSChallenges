@@ -1,0 +1,341 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+.frameC4 {
+  position: absolute;
+  top: 400px;
+  left: 400px;
+  width: 400px;
+  height: 400px;
+  border-radius: 2px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background: #fff;
+  color: #333;
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.frameC4 .center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.frameC4 .ball-row {
+  background-image: linear-gradient(to right, #14c828, #0d7628);
+  width: 400px;
+  height: 400px;
+}
+
+.frameC4 .ball-row .ball {
+  position: relative;
+  color: white;
+  font-weight: bold;
+  top: 25px;
+  height: 5px;
+  width: 10px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.frameC4 .b1 {
+  animation: run 1100.91743ms ease-in-out infinite;
+}
+
+.frameC4 .b2 {
+  animation: run 1111.11111ms ease-in-out infinite;
+}
+
+.frameC4 .b3 {
+  animation: run 1121.49533ms ease-in-out infinite;
+}
+
+.frameC4 .b4 {
+  animation: run 1132.07547ms ease-in-out infinite;
+}
+
+.frameC4 .b5 {
+  animation: run 1142.85714ms ease-in-out infinite;
+}
+
+.frameC4 .b6 {
+  animation: run 1153.84615ms ease-in-out infinite;
+}
+
+.frameC4 .b7 {
+  animation: run 1165.04854ms ease-in-out infinite;
+}
+
+.frameC4 .b8 {
+  animation: run 1176.47059ms ease-in-out infinite;
+}
+
+.frameC4 .b9 {
+  animation: run 1188.11881ms ease-in-out infinite;
+}
+
+.frameC4 .b10 {
+  animation: run 1200ms ease-in-out infinite;
+}
+
+.frameC4 .b11 {
+  animation: run 1212.12121ms ease-in-out infinite;
+}
+
+.frameC4 .b12 {
+  animation: run 1224.4898ms ease-in-out infinite;
+}
+
+.frameC4 .b13 {
+  animation: run 1237.1134ms ease-in-out infinite;
+}
+
+.frameC4 .b14 {
+  animation: run 1250ms ease-in-out infinite;
+}
+
+.frameC4 .b15 {
+  animation: run 1263.15789ms ease-in-out infinite;
+}
+
+.frameC4 .b16 {
+  animation: run 1276.59574ms ease-in-out infinite;
+}
+
+.frameC4 .b17 {
+  animation: run 1290.32258ms ease-in-out infinite;
+}
+
+.frameC4 .b18 {
+  animation: run 1304.34783ms ease-in-out infinite;
+}
+
+.frameC4 .b19 {
+  animation: run 1318.68132ms ease-in-out infinite;
+}
+
+.frameC4 .b20 {
+  animation: run 1333.33333ms ease-in-out infinite;
+}
+
+.frameC4 .b21 {
+  animation: run 1348.31461ms ease-in-out infinite;
+}
+
+.frameC4 .b22 {
+  animation: run 1363.63636ms ease-in-out infinite;
+}
+
+.frameC4 .b23 {
+  animation: run 1379.31034ms ease-in-out infinite;
+}
+
+.frameC4 .b24 {
+  animation: run 1395.34884ms ease-in-out infinite;
+}
+
+.frameC4 .b25 {
+  animation: run 1411.76471ms ease-in-out infinite;
+}
+
+.frameC4 .b26 {
+  animation: run 1428.57143ms ease-in-out infinite;
+}
+
+.frameC4 .b27 {
+  animation: run 1445.78313ms ease-in-out infinite;
+}
+
+.frameC4 .b28 {
+  animation: run 1463.41463ms ease-in-out infinite;
+}
+
+.frameC4 .b29 {
+  animation: run 1481.48148ms ease-in-out infinite;
+}
+
+.frameC4 .b30 {
+  animation: run 1500ms ease-in-out infinite;
+}
+
+.frameC4 .b31 {
+  animation: run 1518.98734ms ease-in-out infinite;
+}
+
+.frameC4 .b32 {
+  animation: run 1538.46154ms ease-in-out infinite;
+}
+
+.frameC4 .b33 {
+  animation: run 1558.44156ms ease-in-out infinite;
+}
+
+.frameC4 .b34 {
+  animation: run 1578.94737ms ease-in-out infinite;
+}
+
+.frameC4 .b35 {
+  animation: run 1600ms ease-in-out infinite;
+}
+
+.frameC4 .b36 {
+  animation: run 1621.62162ms ease-in-out infinite;
+}
+
+.frameC4 .b37 {
+  animation: run 1643.83562ms ease-in-out infinite;
+}
+
+.frameC4 .b38 {
+  animation: run 1666.66667ms ease-in-out infinite;
+}
+
+.frameC4 .b39 {
+  animation: run 1690.14085ms ease-in-out infinite;
+}
+
+.frameC4 .b40 {
+  animation: run 1714.28571ms ease-in-out infinite;
+}
+
+.frameC4 .b41 {
+  animation: run 1739.13043ms ease-in-out infinite;
+}
+
+.frameC4 .b42 {
+  animation: run 1764.70588ms ease-in-out infinite;
+}
+
+.frameC4 .b43 {
+  animation: run 1791.04478ms ease-in-out infinite;
+}
+
+.frameC4 .b44 {
+  animation: run 1818.18182ms ease-in-out infinite;
+}
+
+.frameC4 .b45 {
+  animation: run 1846.15385ms ease-in-out infinite;
+}
+
+.frameC4 .b46 {
+  animation: run 1875ms ease-in-out infinite;
+}
+
+.frameC4 .b47 {
+  animation: run 1904.7619ms ease-in-out infinite;
+}
+
+.frameC4 .b48 {
+  animation: run 1935.48387ms ease-in-out infinite;
+}
+
+.frameC4 .b49 {
+  animation: run 1967.21311ms ease-in-out infinite;
+}
+
+.frameC4 .b50 {
+  animation: run 2000ms ease-in-out infinite;
+}
+
+.frameC4 .b51 {
+  animation: run 2033.89831ms ease-in-out infinite;
+}
+
+.frameC4 .b52 {
+  animation: run 2068.96552ms ease-in-out infinite;
+}
+
+.frameC4 .b53 {
+  animation: run 2105.26316ms ease-in-out infinite;
+}
+
+.frameC4 .b54 {
+  animation: run 2142.85714ms ease-in-out infinite;
+}
+
+.frameC4 .b55 {
+  animation: run 2181.81818ms ease-in-out infinite;
+}
+
+.frameC4 .b56 {
+  animation: run 2222.22222ms ease-in-out infinite;
+}
+
+.frameC4 .b57 {
+  animation: run 2264.15094ms ease-in-out infinite;
+}
+
+.frameC4 .b58 {
+  animation: run 2307.69231ms ease-in-out infinite;
+}
+
+.frameC4 .b59 {
+  animation: run 2352.94118ms ease-in-out infinite;
+}
+
+.frameC4 .b60 {
+  animation: run 2400ms ease-in-out infinite;
+}
+
+.frameC4 .b61 {
+  animation: run 2448.97959ms ease-in-out infinite;
+}
+
+.frameC4 .b62 {
+  animation: run 2500ms ease-in-out infinite;
+}
+
+.frameC4 .b63 {
+  animation: run 2553.19149ms ease-in-out infinite;
+}
+
+.frameC4 .b64 {
+  animation: run 2608.69565ms ease-in-out infinite;
+}
+
+.frameC4 .b65 {
+  animation: run 2666.66667ms ease-in-out infinite;
+}
+
+.frameC4 .b66 {
+  animation: run 2727.27273ms ease-in-out infinite;
+}
+
+.frameC4 .b67 {
+  animation: run 2790.69767ms ease-in-out infinite;
+}
+
+.frameC4 .b68 {
+  animation: run 2857.14286ms ease-in-out infinite;
+}
+
+.frameC4 .b69 {
+  animation: run 2926.82927ms ease-in-out infinite;
+}
+
+.frameC4 .b70 {
+  animation: run 3000ms ease-in-out infinite;
+}
+
+@keyframes run {
+  0% {
+    left: 100px;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  25% {
+    background-color: white;
+  }
+  50% {
+    left: 300px;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  75% {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  100% {
+    left: 100px;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+}

@@ -1,0 +1,104 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+.frameC1 {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 400px;
+  height: 400px;
+  border-radius: 2px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background: #fff;
+  color: #333;
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: repeating-linear-gradient(45deg, black, black 3px, white 7px, white 15px);
+}
+
+.frameC1 .center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 70%;
+  height: 70%;
+  border-radius: 5px;
+  transform: translate(-50%, -50%);
+  background-color: black;
+}
+
+.frameC1 .slice1, .frameC1 .slice2, .frameC1 .slice3 {
+  position: absolute;
+}
+
+.frameC1 .center .dark {
+  fill: #646464;
+}
+
+.frameC1 .center .light {
+  fill: #c8c8c8;
+}
+
+.frameC1 .center .middle {
+  fill: #969696;
+}
+
+.frameC1 .center:hover .dark {
+  animation: darktransform 2s linear infinite;
+}
+
+.frameC1 .center:hover .light {
+  animation: lighttransform 2s linear infinite;
+}
+
+.frameC1 .center:hover .middle {
+  animation: middletransform 2s linear infinite;
+}
+
+@keyframes darktransform {
+  0% {
+    fill: #646464;
+  }
+  25% {
+    fill: #505050;
+  }
+  50% {
+    fill: #323232;
+  }
+  75% {
+    fill: #4b4b4b;
+  }
+  100% {
+    fill: #646464;
+  }
+}
+
+@keyframes lighttransform {
+  0% {
+    fill: #c8c8c8;
+  }
+  25% {
+    fill: #787878;
+  }
+  50% {
+    fill: #646464;
+  }
+  75% {
+    fill: #aaaaaa;
+  }
+  100% {
+    fill: #c8c8c8;
+  }
+}
+
+@keyframes middletransform {
+  0% {
+    fill: #969696;
+  }
+  50% {
+    fill: #72a8ba;
+  }
+  100% {
+    fill: #969696;
+  }
+}

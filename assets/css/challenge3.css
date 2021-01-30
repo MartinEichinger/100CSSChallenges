@@ -1,0 +1,63 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+.frameC3 {
+  position: absolute;
+  top: 400px;
+  left: 0px;
+  width: 400px;
+  height: 400px;
+  border-radius: 2px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background: #fff;
+  color: #333;
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(to top right, #81b3e4, #5CA4EA);
+}
+
+.frameC3 .center {
+  position: absolute;
+  top: 175px;
+  left: 100px;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+}
+
+.frameC3 .search {
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 900;
+  position: absolute;
+  left: 0px;
+  margin: 0;
+  padding: 0;
+}
+
+.frameC3 .search input {
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 900;
+  padding: 10px;
+  width: 200px;
+}
+
+.frameC3 .search input::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  height: 10px;
+  width: 10px;
+  background: grey;
+  border-radius: 10px;
+}
+
+.frameC3 .search #myDataList {
+  list-style-type: none;
+  margin: 5px 1px;
+  padding: 0;
+  background-color: white;
+}
+
+.frameC3 .search #myDataList li {
+  padding: 1px 2px;
+}

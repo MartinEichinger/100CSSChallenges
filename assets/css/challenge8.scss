@@ -1,0 +1,188 @@
+// delete the following line if no text is used
+// edit the line if you wanna use other fonts
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+// use only the available space inside the 400x400 frame
+.frameC8 {
+  position: absolute;
+  top: 800px;
+  left: 400px;
+  width: 400px;
+  height: 400px;
+  border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+	overflow: hidden;
+  background: #fff;
+  color: #333;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: black;
+
+  .heading {
+  	.C8line {
+  		position: absolute;
+  		top: 200px;
+  		&.topLine {
+  			border-top: 2px solid white;
+  			&.active {
+  				top: 175px;
+  				left: 50px;
+  				width: 300px;
+  				box-shadow: 0px 0px 10px 5px rgba(255,0,0,0.75);
+  				animation: topRunActive 1s ease-in-out;
+  			}
+  			&.pause {
+  				top: 195px;
+  				left: 175px;
+  				width: 50px;
+  				animation: topRunPause 1s ease-in-out;
+  			}
+  		}
+  		&.bottomLine {
+  			border-top: 2px solid white;
+  			&.active {
+  				top: 225px;
+  				left: 50px;
+  				width: 300px;
+  				box-shadow: 0px 0px 10px 5px rgba(255,0,0,0.75);
+  				animation: bottomRunActive 1s ease-in-out;
+  			}
+  			&.pause {
+  				top: 205px;
+  				left: 175px;
+  				width: 50px;
+  				animation: bottomRunPause 1s ease-in-out;
+  			}
+  		}
+  	}
+  }
+
+  .C8body {
+  	position: relative;
+  	top: 190px;
+  	max-width: 250px;
+  	padding: 0px;
+  	margin: 0px auto;
+  	&.hidden {
+  		opacity: 0;
+  	}
+  	&.notHidden {
+  		opacity: 100;
+  	}
+  	.para {
+  		font-family: Calibri;
+  		font-size: 18px;
+  		color: red;
+  		display: inline-block;
+  		padding: 0px;
+  		margin: 0px 8px;
+  		cursor: pointer;
+  		//box-shadow: 0px 0px 20px 0px rgba(255, 255, 255,1);
+  		//background-color: rgba(255,255,255,0.3);
+  		border-radius: 50px;
+  		&:hover {
+  			font-weight: bold;
+  			//box-shadow: 0px 0px 9px 8px rgba(255, 255, 255,1);
+  			//background-color: rgba(255,255,255,1);
+  		}
+  	}
+
+  }
+
+  @keyframes topRunActive {
+  	0% {
+  		border-top: 2px solid white;
+  		box-shadow: 0px 0px 10px 5px rgba(255,0,0,0);
+  		top: 195px;
+  		left: 175px;
+  		width: 50px;
+  	}
+  	10% {
+  		border-top: 2px solid white;
+  		box-shadow: 0px 0px 10px 5px rgba(255,0,0,0);
+  		top: 175px;
+  		left: 175px;
+  		width: 50px;
+  	}
+  	100% {
+  		border-top: 2px solid white;
+  		box-shadow: 0px 0px 10px 5px rgba(255,0,0,0.75);
+  		top: 175px;
+  		left: 50px;
+  		width: 300px;
+  	}
+  }
+
+  @keyframes bottomRunActive {
+  	0% {
+  		border-top: 2px solid white;
+  		box-shadow: 0px 0px 10px 5px rgba(255,0,0,0);
+  		top: 205px;
+  		left: 175px;
+  		width: 50px;
+  	}
+  	10% {
+  		border-top: 2px solid white;
+  		box-shadow: 0px 0px 10px 5px rgba(255,0,0,0);
+  		top: 225px;
+  		left: 175px;
+  		width: 50px;
+  	}
+  	100% {
+  		border-top: 2px solid white;
+  		box-shadow: 0px 0px 10px 5px rgba(255,0,0,0.75);
+  		top: 225px;
+  		left: 50px;
+  		width: 300px;
+  	}
+  }
+
+  @keyframes topRunPause {
+  	100% {
+  		border-top: 2px solid white;
+  		box-shadow: 0px 0px 10px 5px rgba(255,0,0,0);
+  		top: 195px;
+  		left: 175px;
+  		width: 50px;
+  	}
+  	90% {
+  		border-top: 2px solid white;
+  		box-shadow: 0px 0px 10px 5px rgba(255,0,0,0);
+  		top: 175px;
+  		left: 175px;
+  		width: 50px;
+  	}
+  	0% {
+  		border-top: 2px solid white;
+  		box-shadow: 0px 0px 10px 5px rgba(255,0,0,0.75);
+  		top: 175px;
+  		left: 50px;
+  		width: 300px;
+  	}
+  }
+
+  @keyframes bottomRunPause {
+  	100% {
+  		border-top: 2px solid white;
+  		box-shadow: 0px 0px 10px 5px rgba(255,0,0,0);
+  		top: 205px;
+  		left: 175px;
+  		width: 50px;
+  	}
+  	90% {
+  		border-top: 2px solid white;
+  		box-shadow: 0px 0px 10px 5px rgba(255,0,0,0);
+  		top: 225px;
+  		left: 175px;
+  		width: 50px;
+  	}
+  	0% {
+  		border-top: 2px solid white;
+  		box-shadow: 0px 0px 10px 5px rgba(255,0,0,0.75);
+  		top: 225px;
+  		left: 50px;
+  		width: 300px;
+  	}
+  }
+}

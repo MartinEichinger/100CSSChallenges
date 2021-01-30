@@ -1,0 +1,63 @@
+// delete the following line if no text is used
+// edit the line if you wanna use other fonts
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+// use only the available space inside the 400x400 frame
+.frameC7 {
+  position: absolute;
+  top: 800px;
+  left: 0px;
+  width: 400px;
+  height: 400px;
+  border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+	overflow: hidden;
+  background: #fff;
+  color: #333;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: black;
+
+  .center {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    transform: translate(-50%,-50%);
+  	//text-align: center;
+  	//margin: 0px auto;
+  	width: 400px;
+  	height: 400px;
+    &:hover .rect{
+      animation-play-state: paused;
+    }
+  }
+
+  .rect {
+  	//width: 5px;
+  	border: 1px solid green;
+  	position: absolute;
+  	margin: 0px auto;
+  	text-align: center;
+
+    $C7numberOfRect: 20;
+    $C7speed: 10;
+    $C7oscillations: 150;
+
+  	@for $i from 1 through $C7numberOfRect {
+  		//$time: 1/$speed * ($oscillations - $numberOfRect + $i);
+  		&.rect#{$i} {
+  			width: ($i*10)+px;
+  			height: ($i*10)+px;
+  			left: (200-$i*5)+px;
+  			top: (200-$i*5)+px;
+  			animation: runC7 6s ease-in-out ($i/30)+s infinite;
+  		}
+  	}
+  }
+
+  @keyframes runC7 {
+  	0%, 100% {transform: rotate(0deg);}
+  	50% {transform: rotate(360deg);}
+  }
+}

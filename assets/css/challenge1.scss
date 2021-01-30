@@ -1,0 +1,76 @@
+// delete the following line if no text is used
+// edit the line if you wanna use other fonts
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+// use only the available space inside the 400x400 frame
+.frameC1 {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 400px;
+  height: 400px;
+  //margin-top: -200px;
+  //margin-left: -200px;
+  border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+	overflow: hidden;
+  background: #fff;
+  color: #333;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	background: repeating-linear-gradient(
+  45deg,
+  black,
+  black 3px,
+  white 7px,
+  white 15px
+  );
+  .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  	width: 70%;
+  	height: 70%;
+  	border-radius: 5px;
+    transform: translate(-50%,-50%);
+  	background-color: black;
+  }
+
+  .slice1, .slice2, .slice3 {
+  	position: absolute;
+  }
+
+  .center {
+  	.dark {fill: rgb(100,100,100);}
+  	.light {fill: rgb(200,200,200);}
+  	.middle {fill: rgb(150,150,150);}
+  	&:hover {
+  		.dark {animation: darktransform 2s linear infinite;}
+  		.light {animation: lighttransform 2s linear infinite;}
+  		.middle {animation: middletransform 2s linear infinite;}
+  	}
+  }
+  @keyframes darktransform {
+    0% {fill: rgb(100,100,100);}
+    25% {fill: rgb(80,80,80);}
+    50% {fill: rgb(50,50,50);}
+    75% {fill: rgb(75,75,75);}
+    100% {fill: rgb(100,100,100);}
+  }
+  @keyframes lighttransform {
+    0% {fill: rgb(200,200,200);}
+    25% {fill: rgb(120,120,120);}
+    50% {fill: rgb(100,100,100);}
+    75% {fill: rgb(170,170,170);}
+    100% {fill: rgb(200,200,200);}
+  }
+  @keyframes middletransform {
+    0% {fill: rgb(150,150,150);}
+    //25% {fill: rgb(120,120,120);}
+    50% {fill: rgb(114,168,186);}
+    //75% {fill: rgb(170,170,170);}
+    100% {fill: rgb(150,150,150);}
+  }
+}
