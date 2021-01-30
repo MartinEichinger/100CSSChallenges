@@ -6,7 +6,8 @@
   width: 400px;
   height: 400px;
   border-radius: 2px;
-  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
   overflow: hidden;
   background: #fff;
   color: #333;
@@ -23,7 +24,8 @@
   width: 70%;
   height: 70%;
   border-radius: 5px;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   background-color: black;
 }
 
@@ -44,15 +46,36 @@
 }
 
 .frameC1 .center:hover .dark {
-  animation: darktransform 2s linear infinite;
+  -webkit-animation: darktransform 2s linear infinite;
+          animation: darktransform 2s linear infinite;
 }
 
 .frameC1 .center:hover .light {
-  animation: lighttransform 2s linear infinite;
+  -webkit-animation: lighttransform 2s linear infinite;
+          animation: lighttransform 2s linear infinite;
 }
 
 .frameC1 .center:hover .middle {
-  animation: middletransform 2s linear infinite;
+  -webkit-animation: middletransform 2s linear infinite;
+          animation: middletransform 2s linear infinite;
+}
+
+@-webkit-keyframes darktransform {
+  0% {
+    fill: #646464;
+  }
+  25% {
+    fill: #505050;
+  }
+  50% {
+    fill: #323232;
+  }
+  75% {
+    fill: #4b4b4b;
+  }
+  100% {
+    fill: #646464;
+  }
 }
 
 @keyframes darktransform {
@@ -70,6 +93,24 @@
   }
   100% {
     fill: #646464;
+  }
+}
+
+@-webkit-keyframes lighttransform {
+  0% {
+    fill: #c8c8c8;
+  }
+  25% {
+    fill: #787878;
+  }
+  50% {
+    fill: #646464;
+  }
+  75% {
+    fill: #aaaaaa;
+  }
+  100% {
+    fill: #c8c8c8;
   }
 }
 
@@ -91,6 +132,18 @@
   }
 }
 
+@-webkit-keyframes middletransform {
+  0% {
+    fill: #969696;
+  }
+  50% {
+    fill: #72a8ba;
+  }
+  100% {
+    fill: #969696;
+  }
+}
+
 @keyframes middletransform {
   0% {
     fill: #969696;
@@ -102,3 +155,4 @@
     fill: #969696;
   }
 }
+/*# sourceMappingURL=challenge1.css.map */

@@ -1,0 +1,215 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+.frameC9 {
+  position: absolute;
+  top: 800px;
+  left: 800px;
+  width: 400px;
+  height: 400px;
+  border-radius: 2px;
+  -webkit-box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background: #fff;
+  color: #333;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: grey;
+}
+
+.frameC9 .center {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: perspective(180px);
+          transform: perspective(180px);
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+
+.frameC9 #c9f1 {
+  -webkit-animation: moveYourForm 50s ease-in-out 0s infinite both;
+          animation: moveYourForm 50s ease-in-out 0s infinite both;
+}
+
+.frameC9 #c9f2 {
+  -webkit-animation: moveYourForm 50s ease-in-out 5s infinite both;
+          animation: moveYourForm 50s ease-in-out 5s infinite both;
+}
+
+.frameC9 #c9f3 {
+  -webkit-animation: moveYourForm 50s ease-in-out 10s infinite both;
+          animation: moveYourForm 50s ease-in-out 10s infinite both;
+}
+
+.frameC9 #c9f4 {
+  -webkit-animation: moveYourForm 50s ease-in-out 15s infinite both;
+          animation: moveYourForm 50s ease-in-out 15s infinite both;
+}
+
+.frameC9 #c9f5 {
+  -webkit-animation: moveYourForm 50s ease-in-out 20s infinite both;
+          animation: moveYourForm 50s ease-in-out 20s infinite both;
+}
+
+.frameC9 #c9f6 {
+  -webkit-animation: moveYourForm 50s ease-in-out 25s infinite both;
+          animation: moveYourForm 50s ease-in-out 25s infinite both;
+}
+
+.frameC9 #c9f7 {
+  -webkit-animation: moveYourForm 50s ease-in-out 30s infinite both;
+          animation: moveYourForm 50s ease-in-out 30s infinite both;
+}
+
+.frameC9 #c9f8 {
+  -webkit-animation: moveYourForm 50s ease-in-out 35s infinite both;
+          animation: moveYourForm 50s ease-in-out 35s infinite both;
+}
+
+.frameC9 #c9f9 {
+  -webkit-animation: moveYourForm 50s ease-in-out 40s infinite both;
+          animation: moveYourForm 50s ease-in-out 40s infinite both;
+}
+
+.frameC9 #c9f10 {
+  -webkit-animation: moveYourForm 50s ease-in-out 45s infinite both;
+          animation: moveYourForm 50s ease-in-out 45s infinite both;
+}
+
+.frameC9 .form {
+  z-index: 100;
+  position: absolute;
+  top: 140px;
+  left: 125px;
+  height: 35px;
+  width: 150px;
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 15px 0px white;
+          box-shadow: 0px 0px 15px 0px white;
+  color: #646464;
+}
+
+.frameC9 .form .heading {
+  height: 15px;
+  padding: 10px;
+  margin: 0px;
+  font-weight: 900;
+  font-size: 12px;
+  text-align: center;
+}
+
+@-webkit-keyframes moveYourForm {
+  0% 100% {
+    -webkit-transform: translate3d(0);
+            transform: translate3d(0);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #646464;
+  }
+  10% {
+    -webkit-transform: translate3d(0px, -120px, -20px);
+            transform: translate3d(0px, -120px, -20px);
+    background-color: rgba(175, 175, 175, 0.5);
+    color: #646464;
+  }
+  20% {
+    -webkit-transform: translate3d(0px, -180px, -40px);
+            transform: translate3d(0px, -180px, -40px);
+    color: #646464;
+  }
+  30% {
+    -webkit-transform: translate3d(0px, -120px, -60px);
+            transform: translate3d(0px, -120px, -60px);
+    color: rgba(100, 100, 100, 0);
+  }
+  40% {
+    -webkit-transform: translate3d(0px, -60px, -80px);
+            transform: translate3d(0px, -60px, -80px);
+    color: rgba(100, 100, 100, 0);
+  }
+  50% {
+    -webkit-transform: translate3d(0px, 0px, -100px);
+            transform: translate3d(0px, 0px, -100px);
+    color: rgba(100, 100, 100, 0);
+  }
+  60% {
+    -webkit-transform: translate3d(0px, 60px, -80px);
+            transform: translate3d(0px, 60px, -80px);
+    color: rgba(100, 100, 100, 0);
+  }
+  70% {
+    -webkit-transform: translate3d(0px, 120px, -60px);
+            transform: translate3d(0px, 120px, -60px);
+    color: rgba(100, 100, 100, 0);
+  }
+  80% {
+    -webkit-transform: translate3d(0px, 180px, -40px);
+            transform: translate3d(0px, 180px, -40px);
+    color: #646464;
+  }
+  90% {
+    -webkit-transform: translate3d(0px, 120px, -20px);
+            transform: translate3d(0px, 120px, -20px);
+    background-color: rgba(175, 175, 175, 0.5);
+    color: #646464;
+  }
+}
+
+@keyframes moveYourForm {
+  0% 100% {
+    -webkit-transform: translate3d(0);
+            transform: translate3d(0);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #646464;
+  }
+  10% {
+    -webkit-transform: translate3d(0px, -120px, -20px);
+            transform: translate3d(0px, -120px, -20px);
+    background-color: rgba(175, 175, 175, 0.5);
+    color: #646464;
+  }
+  20% {
+    -webkit-transform: translate3d(0px, -180px, -40px);
+            transform: translate3d(0px, -180px, -40px);
+    color: #646464;
+  }
+  30% {
+    -webkit-transform: translate3d(0px, -120px, -60px);
+            transform: translate3d(0px, -120px, -60px);
+    color: rgba(100, 100, 100, 0);
+  }
+  40% {
+    -webkit-transform: translate3d(0px, -60px, -80px);
+            transform: translate3d(0px, -60px, -80px);
+    color: rgba(100, 100, 100, 0);
+  }
+  50% {
+    -webkit-transform: translate3d(0px, 0px, -100px);
+            transform: translate3d(0px, 0px, -100px);
+    color: rgba(100, 100, 100, 0);
+  }
+  60% {
+    -webkit-transform: translate3d(0px, 60px, -80px);
+            transform: translate3d(0px, 60px, -80px);
+    color: rgba(100, 100, 100, 0);
+  }
+  70% {
+    -webkit-transform: translate3d(0px, 120px, -60px);
+            transform: translate3d(0px, 120px, -60px);
+    color: rgba(100, 100, 100, 0);
+  }
+  80% {
+    -webkit-transform: translate3d(0px, 180px, -40px);
+            transform: translate3d(0px, 180px, -40px);
+    color: #646464;
+  }
+  90% {
+    -webkit-transform: translate3d(0px, 120px, -20px);
+            transform: translate3d(0px, 120px, -20px);
+    background-color: rgba(175, 175, 175, 0.5);
+    color: #646464;
+  }
+}
+/*# sourceMappingURL=challenge9.css.map */

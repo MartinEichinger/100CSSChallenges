@@ -6,7 +6,8 @@
   width: 400px;
   height: 400px;
   border-radius: 2px;
-  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
   overflow: hidden;
   background: #fff;
   color: #333;
@@ -29,15 +30,18 @@
   top: 175px;
   left: 50px;
   width: 300px;
-  box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0.75);
-  animation: topRunActive 1s ease-in-out;
+  -webkit-box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0.75);
+          box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0.75);
+  -webkit-animation: topRunActive 1s ease-in-out;
+          animation: topRunActive 1s ease-in-out;
 }
 
 .frameC8 .heading .C8line.topLine.pause {
   top: 195px;
   left: 175px;
   width: 50px;
-  animation: topRunPause 1s ease-in-out;
+  -webkit-animation: topRunPause 1s ease-in-out;
+          animation: topRunPause 1s ease-in-out;
 }
 
 .frameC8 .heading .C8line.bottomLine {
@@ -48,15 +52,18 @@
   top: 225px;
   left: 50px;
   width: 300px;
-  box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0.75);
-  animation: bottomRunActive 1s ease-in-out;
+  -webkit-box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0.75);
+          box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0.75);
+  -webkit-animation: bottomRunActive 1s ease-in-out;
+          animation: bottomRunActive 1s ease-in-out;
 }
 
 .frameC8 .heading .C8line.bottomLine.pause {
   top: 205px;
   left: 175px;
   width: 50px;
-  animation: bottomRunPause 1s ease-in-out;
+  -webkit-animation: bottomRunPause 1s ease-in-out;
+          animation: bottomRunPause 1s ease-in-out;
 }
 
 .frameC8 .C8body {
@@ -90,25 +97,82 @@
   font-weight: bold;
 }
 
-@keyframes topRunActive {
+@-webkit-keyframes topRunActive {
   0% {
     border-top: 2px solid white;
-    box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0);
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0);
+            box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0);
     top: 195px;
     left: 175px;
     width: 50px;
   }
   10% {
     border-top: 2px solid white;
-    box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0);
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0);
+            box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0);
     top: 175px;
     left: 175px;
     width: 50px;
   }
   100% {
     border-top: 2px solid white;
-    box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0.75);
+            box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0.75);
     top: 175px;
+    left: 50px;
+    width: 300px;
+  }
+}
+
+@keyframes topRunActive {
+  0% {
+    border-top: 2px solid white;
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0);
+            box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0);
+    top: 195px;
+    left: 175px;
+    width: 50px;
+  }
+  10% {
+    border-top: 2px solid white;
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0);
+            box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0);
+    top: 175px;
+    left: 175px;
+    width: 50px;
+  }
+  100% {
+    border-top: 2px solid white;
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0.75);
+            box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0.75);
+    top: 175px;
+    left: 50px;
+    width: 300px;
+  }
+}
+
+@-webkit-keyframes bottomRunActive {
+  0% {
+    border-top: 2px solid white;
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0);
+            box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0);
+    top: 205px;
+    left: 175px;
+    width: 50px;
+  }
+  10% {
+    border-top: 2px solid white;
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0);
+            box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0);
+    top: 225px;
+    left: 175px;
+    width: 50px;
+  }
+  100% {
+    border-top: 2px solid white;
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0.75);
+            box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0.75);
+    top: 225px;
     left: 50px;
     width: 300px;
   }
@@ -117,22 +181,52 @@
 @keyframes bottomRunActive {
   0% {
     border-top: 2px solid white;
-    box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0);
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0);
+            box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0);
     top: 205px;
     left: 175px;
     width: 50px;
   }
   10% {
     border-top: 2px solid white;
-    box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0);
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0);
+            box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0);
     top: 225px;
     left: 175px;
     width: 50px;
   }
   100% {
     border-top: 2px solid white;
-    box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0.75);
+            box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0.75);
     top: 225px;
+    left: 50px;
+    width: 300px;
+  }
+}
+
+@-webkit-keyframes topRunPause {
+  100% {
+    border-top: 2px solid white;
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0);
+            box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0);
+    top: 195px;
+    left: 175px;
+    width: 50px;
+  }
+  90% {
+    border-top: 2px solid white;
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0);
+            box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0);
+    top: 175px;
+    left: 175px;
+    width: 50px;
+  }
+  0% {
+    border-top: 2px solid white;
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0.75);
+            box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0.75);
+    top: 175px;
     left: 50px;
     width: 300px;
   }
@@ -141,22 +235,52 @@
 @keyframes topRunPause {
   100% {
     border-top: 2px solid white;
-    box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0);
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0);
+            box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0);
     top: 195px;
     left: 175px;
     width: 50px;
   }
   90% {
     border-top: 2px solid white;
-    box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0);
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0);
+            box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0);
     top: 175px;
     left: 175px;
     width: 50px;
   }
   0% {
     border-top: 2px solid white;
-    box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0.75);
+            box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0.75);
     top: 175px;
+    left: 50px;
+    width: 300px;
+  }
+}
+
+@-webkit-keyframes bottomRunPause {
+  100% {
+    border-top: 2px solid white;
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0);
+            box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0);
+    top: 205px;
+    left: 175px;
+    width: 50px;
+  }
+  90% {
+    border-top: 2px solid white;
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0);
+            box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0);
+    top: 225px;
+    left: 175px;
+    width: 50px;
+  }
+  0% {
+    border-top: 2px solid white;
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0.75);
+            box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0.75);
+    top: 225px;
     left: 50px;
     width: 300px;
   }
@@ -165,23 +289,27 @@
 @keyframes bottomRunPause {
   100% {
     border-top: 2px solid white;
-    box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0);
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0);
+            box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0);
     top: 205px;
     left: 175px;
     width: 50px;
   }
   90% {
     border-top: 2px solid white;
-    box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0);
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0);
+            box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0);
     top: 225px;
     left: 175px;
     width: 50px;
   }
   0% {
     border-top: 2px solid white;
-    box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0.75);
+            box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0.75);
     top: 225px;
     left: 50px;
     width: 300px;
   }
 }
+/*# sourceMappingURL=challenge8.css.map */

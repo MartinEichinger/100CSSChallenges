@@ -6,7 +6,8 @@
   width: 400px;
   height: 400px;
   border-radius: 2px;
-  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
   overflow: hidden;
   background: #fff;
   color: #333;
@@ -34,16 +35,23 @@
 }
 
 .frameC6 .logo.small {
-  transform: scale(0);
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: all 1s ease-out 0.3s;
   transition: all 1s ease-out 0.3s;
 }
 
 .frameC6 .logo.normal {
-  transform: scale(1);
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: all 1s ease-out 0.3s;
   transition: all 1s ease-out 0.3s;
 }
 
 .frameC6 .logo.big {
-  transform: scale(60);
+  -webkit-transform: scale(60);
+          transform: scale(60);
+  -webkit-transition: all 1s ease-in 0.3s;
   transition: all 1s ease-in 0.3s;
 }
+/*# sourceMappingURL=challenge6.css.map */
